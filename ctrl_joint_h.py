@@ -42,7 +42,7 @@ def talker(val, direction):
 
     setRot(pub, val, direction)
     v = getPos(pubget)
-    buff = str(v[0]) + " " + str(v[1])+
+    buff = str(v[0]) + " " + str(v[1])
     print(v)
     rate.sleep()
 
